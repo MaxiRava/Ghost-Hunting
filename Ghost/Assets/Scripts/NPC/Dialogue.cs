@@ -12,10 +12,12 @@ public class Dialogue : MonoBehaviour
     //lineas de dialogos, min y max
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
 
+    private KeyCode Key = KeyCode.E;
     private float typingTime = 0.05f;
     private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
+
 
     [SerializeField] private PlayerMovement playerMovement;
 
@@ -28,7 +30,7 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        if (isPlayerInRange && Input.GetKeyDown(KeyCode.Z))
+        if (isPlayerInRange && Input.GetKeyDown(Key))
         {
 
             if (!didDialogueStart)
