@@ -15,25 +15,25 @@ public class Looking : MonoBehaviour
 
     private void CharacterView()
     {
-        float MoveX = Input.GetAxis("Horizontal");
-        float MoveY = Input.GetAxis("Vertical");
+        //float MoveX = Input.GetAxis("Horizontal");
+        //float MoveY = Input.GetAxis("Vertical");
 
-        if (MoveX < 0)
+        if (Input.GetKeyDown("left"))
         {
             direction = "Left";
 
         }
-        else if (MoveX > 0)
+        else if (Input.GetKeyDown("right"))
         {
             direction = "Right";
 
         }
-        if (MoveY < 0)
+        if (Input.GetKeyDown("down"))
         {
             direction = "Down";
 
         }
-        else if (MoveY > 0)
+        else if (Input.GetKeyDown("up"))
         {
             direction = "Up";
         }

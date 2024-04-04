@@ -1,10 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyTakeDamage : MonoBehaviour
 {
-    [SerializeField] private EnemyLifeBar enemyLifeBar; 
+    [SerializeField] private EnemyLifeBar enemyLifeBar;
     [SerializeField] private PlayerGun playerGun;
     [SerializeField] private float maxHealth;
     [SerializeField] private float health;
@@ -20,19 +21,16 @@ public class EnemyTakeDamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerGun.damageActive)
-        {
-            EnemyGetDamage();
-        }
-        else
+        if (playerGun.damageActive == false)
         {
             spriteRenderer.color = Color.white;
         }
+
     }
 
-    private void EnemyGetDamage(){
+    public void EnemyGetDamage(float damage)
+    {
 
-        float damage = 0.1f;
         health -= damage;
         enemyLifeBar.UpdateHealthbar(maxHealth, health);
 
@@ -45,4 +43,5 @@ public class EnemyTakeDamage : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
 }

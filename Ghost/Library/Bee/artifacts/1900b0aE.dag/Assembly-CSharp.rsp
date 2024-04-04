@@ -391,6 +391,7 @@
 "Assets/Scripts/Items/enterDoor.cs"
 "Assets/Scripts/NPC/Dialogue.cs"
 "Assets/Scripts/Player/Looking.cs"
+"Assets/Scripts/Player/PlayerAttack.cs"
 "Assets/Scripts/Player/PlayerGun.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
