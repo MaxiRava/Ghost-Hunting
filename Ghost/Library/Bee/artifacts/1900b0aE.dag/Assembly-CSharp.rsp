@@ -383,6 +383,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Enemy/EnemyBasic/EnemyAttack.cs"
 "Assets/Scripts/Enemy/EnemyBasic/EnemyTakeDamage.cs"
+"Assets/Scripts/Enemy/EnemyBasic/Shoot/EnemyProjectile.cs"
+"Assets/Scripts/Enemy/EnemyBasic/Shoot/EnemyShoot.cs"
 "Assets/Scripts/Enemy/EnemyBasic/States/EnemyIdle.cs"
 "Assets/Scripts/Enemy/EnemyBasic/States/EnemyMove.cs"
 "Assets/Scripts/Enemy/EnemyBasic/States/EnemyPatrol.cs"
