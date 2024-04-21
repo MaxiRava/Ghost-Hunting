@@ -385,6 +385,7 @@
 "Assets/Scripts/Enemy/EnemyBasic/EnemyTakeDamage.cs"
 "Assets/Scripts/Enemy/EnemyBasic/Shoot/EnemyProjectile.cs"
 "Assets/Scripts/Enemy/EnemyBasic/Shoot/EnemyShoot.cs"
+"Assets/Scripts/Enemy/EnemyBasic/States/DistanceEnemy.cs"
 "Assets/Scripts/Enemy/EnemyBasic/States/EnemyIdle.cs"
 "Assets/Scripts/Enemy/EnemyBasic/States/EnemyMove.cs"
 "Assets/Scripts/Enemy/EnemyBasic/States/EnemyPatrol.cs"

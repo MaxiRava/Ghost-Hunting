@@ -34,10 +34,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void LoseLife()
+    public void LoseLife(int damage)
     {
 
-        lifes -= 1;
+        lifes -= damage;
 
 
         if (lifes == 0)

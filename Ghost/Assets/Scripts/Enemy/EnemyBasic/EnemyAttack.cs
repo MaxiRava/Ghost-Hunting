@@ -5,20 +5,25 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour
 {
 
+    [SerializeField] private int enemyDamage;
+
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            GameManager.Instance.LoseLife();
+            GameManager.Instance.LoseLife(enemyDamage);
         }
     }
     void Start()
     {
-        
+
     }
 
     void Update()
     {
         
     }
+
+
 }
