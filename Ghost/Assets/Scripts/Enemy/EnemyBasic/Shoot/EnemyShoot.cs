@@ -6,6 +6,7 @@ public class EnemyShoot : MonoBehaviour
 {
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private float timeBetweenShoots;
+    [SerializeField] private Transform spotShoot;
 
     
     private Transform EnemyTransform;
@@ -26,6 +27,11 @@ public class EnemyShoot : MonoBehaviour
     void Update()
     {
         Distance();
+        
+        if (projectilePrefab)
+        {
+            
+        }
     }
 
     IEnumerator Shoot()
@@ -35,7 +41,7 @@ public class EnemyShoot : MonoBehaviour
         {
 
             yield return new WaitForSeconds(timeBetweenShoots);
-            Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+            Instantiate(projectilePrefab, spotShoot.position, Quaternion.identity);
 
         }
 
