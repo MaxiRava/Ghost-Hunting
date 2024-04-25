@@ -1,4 +1,5 @@
 using System.Collections;
+using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -50,6 +51,20 @@ public class EnemyPatrol : MonoBehaviour
         SetNextWaypoint();
 
         isWaiting = false;
+
+        Flip();
+    }
+
+    private void Flip(){
+
+        if (transform.position.x > wayPoints[currentWaypoint].position.x)
+        {
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+        }
+        else{
+
+            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+        }
     }
 
     void SetNextWaypoint()

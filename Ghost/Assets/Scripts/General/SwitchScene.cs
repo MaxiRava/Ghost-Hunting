@@ -6,15 +6,15 @@ using UnityEngine.SceneManagement;
 public class SwitchScene : MonoBehaviour
 {
 
-    public void Tutorial(){
+    public void Escena1(){
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("CasaPlayer");
 
     }
 
-    public void BackMenu(){
+    public void EscenaNivel1(){
 
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("BattleTutorial");
 
     }
 

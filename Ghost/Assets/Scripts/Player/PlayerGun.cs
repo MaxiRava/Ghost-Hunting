@@ -21,18 +21,23 @@ public class PlayerGun : MonoBehaviour
     private bool isAttacking;
     private float keyAnimator;
 
+    //private Transform Enemy;
+    private bool isEnemyNear = false;
+
     void Start()
     {
         Looking = GetComponent<Looking>();
         attackPlayerAnimator = GetComponent<Animator>();
         isAttacking = false;
+
+        //Enemy = GameObject.FindWithTag("Enemy").transform;
     }
 
     private void Update()
     {
 
         KeyInput();
-    
+
         attackPlayerAnimator.SetFloat("keyDirection", keyAnimator);
 
         if (Input.GetKey(Key))
@@ -40,7 +45,7 @@ public class PlayerGun : MonoBehaviour
             EneableGun();
             UpdateGun();
             isAttacking = true;
-            
+
         }
 
         if (Input.GetKeyUp(Key))
@@ -51,84 +56,145 @@ public class PlayerGun : MonoBehaviour
         }
 
         attackPlayerAnimator.SetBool("isAttacking", isAttacking);
-        
+
     }
 
- private void KeyInput()
-{
-    switch (Looking.direction)
+    private void KeyInput()
     {
-        case "Up":
+        switch (Looking.direction)
+        {
+            case "Up":
 
-            Key = KeyCode.UpArrow;
-            keyAnimator = 0f;
+                Key = KeyCode.UpArrow;
+                keyAnimator = 0f;
 
 
-            break;
+                break;
 
-        case "Down":
+            case "Down":
 
-            Key = KeyCode.DownArrow;
-            keyAnimator = 0.33f;
+                Key = KeyCode.DownArrow;
+                keyAnimator = 0.33f;
 
-            break;
+                break;
 
-        case "Left":
+            case "Left":
 
-            Key = KeyCode.LeftArrow;
-            keyAnimator = 0.66f;
+                Key = KeyCode.LeftArrow;
+                keyAnimator = 0.66f;
 
-            break;
+                break;
 
-        case "Right":
+            case "Right":
 
-            Key = KeyCode.RightArrow;
-            keyAnimator = 1f;
+                Key = KeyCode.RightArrow;
+                keyAnimator = 1f;
 
-            break;
+                break;
 
-        default:
-            break;
+            default:
+                break;
+        }
+
     }
-    
-}
 
-private void EneableGun()
-{
-
-    line.enabled = true;
-}
-
-private void UpdateGun()
-{
-    line.SetPosition(0, gun.position);
-
-    line.SetPosition(1, gun.position - gun.up * laserRange);
-
-    RaycastHit2D hit = Physics2D.Raycast(gun.position - gun.up, -gun.up, laserRange, layerObstacule);
-
-    if (hit.collider != null)
+    private void EneableGun()
     {
-        line.SetPosition(1, hit.point);
 
-        damageActive = true;
-        hit.collider.GetComponent<EnemyTakeDamage>().EnemyGetDamage(gunDamage);
-
-        //Debug.Log("daño activado");
+        line.enabled = true;
     }
-    else
+
+    private void UpdateGun()
     {
-        damageActive = false;
-        //Debug.Log("daño desactivado");
+        line.SetPosition(0, gun.position);
+
+        line.SetPosition(1, gun.position - gun.up * laserRange);
+
+        RaycastHit2D hit = Physics2D.Raycast(gun.position - gun.up, -gun.up, laserRange, layerObstacule);
+
+        // if (hit.collider != null)
+        // {
+        //     line.SetPosition(1, hit.point);
+
+        //     damageActive = true;
+        //     hit.collider.GetComponent<EnemyTakeDamage>().EnemyGetDamage(gunDamage);
+
+        //     //Debug.Log("daño activado");
+        // }
+        // else
+        // {
+        //     damageActive = false;
+        //     //Debug.Log("daño desactivado");
+        // }
+
+        if (isEnemyNear)
+        {
+            Transform nearestEnemy = FindNearestEnemy();
+
+            if (nearestEnemy != null)
+            {
+                line.SetPosition(1, nearestEnemy.position);
+                damageActive = true;
+                nearestEnemy.GetComponent<EnemyTakeDamage>().EnemyGetDamage(gunDamage);
+            }
+
+            // //line.SetPosition(1, Enemy.position);
+
+            // damageActive = true;
+            // hit.collider.GetComponent<EnemyTakeDamage>().EnemyGetDamage(gunDamage);
+
+            // //Debug.Log("daño activado");
+        }
+        else
+        {
+            damageActive = false;
+            //Debug.Log("daño desactivado");
+        }
+
     }
 
-}
+    private Transform FindNearestEnemy()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        Transform nearestEnemy = null;
+        float minDistance = Mathf.Infinity;
+        foreach (GameObject enemy in enemies)
+        {
+            float distance = Vector3.Distance(gun.position, enemy.transform.position);
+            if (distance < minDistance)
+            {
+                minDistance = distance;
+                nearestEnemy = enemy.transform;
+            }
+        }
+        return nearestEnemy;
+    }
 
-private void DisableGun()
-{
+    private void OnTriggerEnter2D(Collider2D trigger)
+    {
+        if (trigger.gameObject.CompareTag("Enemy"))
+        {
+            isEnemyNear = true;
 
-    line.enabled = false;
-}
+            //line.SetPosition(1, Enemy.position);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D trigger)
+    {
+        if (trigger.gameObject.CompareTag("Enemy"))
+        {
+            isEnemyNear = false;
+
+            //line.SetPosition(1, Enemy.position);
+        }
+    }
+
+    private void DisableGun()
+    {
+
+        line.enabled = false;
+    }
 
 }
 
