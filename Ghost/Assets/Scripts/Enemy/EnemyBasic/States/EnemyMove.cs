@@ -35,7 +35,7 @@ public class EnemyMove : MonoBehaviour
         if (distance < PersecutionDistance)
         {
             agent.SetDestination(target.position);
-            Debug.Log("movete");
+            //Debug.Log("movete");
 
         }
         else
@@ -58,7 +58,7 @@ public class EnemyMove : MonoBehaviour
 
         if (distance > PersecutionDistance)
         {
-            Debug.Log("no te muevas");
+            //Debug.Log("no te muevas");
             StateMach.ActivateState(StateMach.stateArray[0]);
             
 

@@ -4,24 +4,34 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] private SwitchScene sceneManager;
-     
+
+    [SerializeField] private GameObject doorClose;
+    [SerializeField] private GameObject doorOpen;
+
+    [SerializeField] private int enemiesAmount;
+    [SerializeField] private int enemiesEliminated;
+
     void Start()
     {
-        
+        enemiesAmount = GameObject.FindGameObjectsWithTag("Enemy").Length;
     }
 
-    
-    void Update()
+    public void EnemiesEliminates()
     {
-        
-    }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.name == "Player"){
+        enemiesEliminated += 1;
 
-            sceneManager.Escena1();
+        if (enemiesEliminated == enemiesAmount)
+        {
+            doorClose.SetActive(false);
+            doorOpen.SetActive(true);
+
         }
     }
+
+    void Update()
+    {
+
+    }
+
 }

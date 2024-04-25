@@ -6,16 +6,21 @@ using UnityEngine.SceneManagement;
 public class SwitchScene : MonoBehaviour
 {
 
-    public void Escena1(){
+    public void Scene1(){
 
         SceneManager.LoadScene("CasaPlayer");
 
     }
 
-    public void EscenaNivel1(){
+    public void NivelScene1(){
 
         SceneManager.LoadScene("BattleTutorial");
 
+    }
+
+    public void NextScene(){
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 }

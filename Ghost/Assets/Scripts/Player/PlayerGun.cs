@@ -18,11 +18,13 @@ public class PlayerGun : MonoBehaviour
     private Looking Looking;
 
     private Animator attackPlayerAnimator;
-    private bool isAttacking;
+    public bool isAttacking;
     private float keyAnimator;
 
     //private Transform Enemy;
     private bool isEnemyNear = false;
+
+    private int enemiesInsideTrigger = 0;
 
     void Start()
     {
@@ -52,6 +54,7 @@ public class PlayerGun : MonoBehaviour
         {
             DisableGun();
             isAttacking = false;
+            damageActive = false;
 
         }
 
@@ -110,7 +113,9 @@ public class PlayerGun : MonoBehaviour
 
         line.SetPosition(1, gun.position - gun.up * laserRange);
 
-        RaycastHit2D hit = Physics2D.Raycast(gun.position - gun.up, -gun.up, laserRange, layerObstacule);
+        //Debug.Log(isEnemyNear);
+
+        //RaycastHit2D hit = Physics2D.Raycast(gun.position - gun.up, -gun.up, laserRange, layerObstacule);
 
         // if (hit.collider != null)
         // {
@@ -129,7 +134,10 @@ public class PlayerGun : MonoBehaviour
 
         if (isEnemyNear)
         {
+            
             Transform nearestEnemy = FindNearestEnemy();
+            float distance = Vector3.Distance(gun.position, nearestEnemy.transform.position);
+            RaycastHit2D hit = Physics2D.Raycast(gun.position, nearestEnemy.transform.position, distance, layerObstacule);
 
             if (nearestEnemy != null)
             {
@@ -138,6 +146,13 @@ public class PlayerGun : MonoBehaviour
                 nearestEnemy.GetComponent<EnemyTakeDamage>().EnemyGetDamage(gunDamage);
             }
 
+            if (hit.collider == null)
+            {
+                damageActive = false;
+            }
+
+
+
             // //line.SetPosition(1, Enemy.position);
 
             // damageActive = true;
@@ -145,11 +160,7 @@ public class PlayerGun : MonoBehaviour
 
             // //Debug.Log("daño activado");
         }
-        else
-        {
-            damageActive = false;
-            //Debug.Log("daño desactivado");
-        }
+   
 
     }
 
@@ -174,9 +185,11 @@ public class PlayerGun : MonoBehaviour
     {
         if (trigger.gameObject.CompareTag("Enemy"))
         {
-            isEnemyNear = true;
-
-            //line.SetPosition(1, Enemy.position);
+            enemiesInsideTrigger++;
+            if (!isEnemyNear)
+            {
+                isEnemyNear = true;
+            }
         }
     }
 
@@ -184,9 +197,11 @@ public class PlayerGun : MonoBehaviour
     {
         if (trigger.gameObject.CompareTag("Enemy"))
         {
-            isEnemyNear = false;
-
-            //line.SetPosition(1, Enemy.position);
+            enemiesInsideTrigger--;
+            if (enemiesInsideTrigger <= 0)
+            {
+                isEnemyNear = false;
+            }
         }
     }
 

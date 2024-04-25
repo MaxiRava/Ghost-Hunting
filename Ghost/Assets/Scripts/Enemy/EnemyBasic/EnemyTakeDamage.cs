@@ -21,11 +21,12 @@ public class EnemyTakeDamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(playerGun.damageActive);
+
         if (playerGun.damageActive == false)
         {
             spriteRenderer.color = Color.white;
         }
-
     }
 
     public void EnemyGetDamage(float damage)
@@ -40,6 +41,7 @@ public class EnemyTakeDamage : MonoBehaviour
         }
         else
         {
+            GameObject.FindGameObjectWithTag("Door").GetComponent<Door>().EnemiesEliminates();
             Destroy(gameObject);
         }
     }
