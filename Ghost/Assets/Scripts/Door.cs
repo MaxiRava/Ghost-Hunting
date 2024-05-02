@@ -7,7 +7,7 @@ public class Door : MonoBehaviour
 
     [SerializeField] private GameObject doorClose;
     [SerializeField] private GameObject doorOpen;
-
+    [SerializeField] private GameObject finish;
     [SerializeField] private int enemiesAmount;
     [SerializeField] private int enemiesEliminated;
 
@@ -25,6 +25,7 @@ public class Door : MonoBehaviour
         {
             doorClose.SetActive(false);
             doorOpen.SetActive(true);
+            finish.SetActive(true);
 
         }
     }

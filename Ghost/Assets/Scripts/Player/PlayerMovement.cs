@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D playerRb;
     [SerializeField] private Vector2 moveInput;
-    private Animator playerAnimator;
+    public Animator playerAnimator;
 
     public bool canMove = true;
 

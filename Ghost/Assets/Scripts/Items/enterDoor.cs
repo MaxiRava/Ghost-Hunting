@@ -12,6 +12,8 @@ public class enterDoor : MonoBehaviour
 
     [SerializeField] private PlayerMovement playerMovement;
 
+    [SerializeField] private Dialogue dialogue;
+
        void Start()
     {
         enabled = false;
@@ -29,7 +31,7 @@ public class enterDoor : MonoBehaviour
 
      private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && dialogue.doorActive)
         {
             
             doorMark.SetActive(true);

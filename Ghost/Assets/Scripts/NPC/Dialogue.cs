@@ -9,6 +9,12 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
 
+    [SerializeField] private PlayerMovement playerMovement;
+
+    [SerializeField] private GameObject secondDialogue;
+
+    public bool doorActive = false;
+
     //lineas de dialogos, min y max
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
 
@@ -17,14 +23,13 @@ public class Dialogue : MonoBehaviour
     private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
-
-
-    [SerializeField] private PlayerMovement playerMovement;
+    
 
 
     private void Start()
     {
         enabled = false;
+        
     }
 
 
@@ -54,6 +59,15 @@ public class Dialogue : MonoBehaviour
 
             }
 
+        }
+
+        if (lineIndex == 10)
+        {
+            //primer dialogo
+            doorActive = true;
+            gameObject.SetActive(false);
+            secondDialogue.SetActive(true);
+            
         }
     }
 

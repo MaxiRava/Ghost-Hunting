@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CasaPlayer.unity
     guid: 1a169d8ad1cc715468d71754af2d8a10
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: ca9ea5ffc6dc1b84a93ef1c13d97d3bf
+  - enabled: 1
     path: Assets/Scenes/BattleTutorial.unity
     guid: 881ac9a6584c15d4c9bbbc431d29a2da
   - enabled: 1
