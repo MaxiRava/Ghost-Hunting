@@ -276,7 +276,7 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Cancel",
@@ -629,7 +629,7 @@
                 },
                 {
                     "name": "",
-                    "id": "2f7867d2-b831-470b-abb6-a744c9efe4b1",
+                    "id": "738761a1-d3b5-4a70-a322-d860ab1ccbfa",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
@@ -645,17 +645,6 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse;Gamepad;Touch;Joystick;XR",
-                    "action": "Cancel",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ecf51cc0-6665-4f75-896a-fe3a299fdfb9",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
                     "action": "Cancel",
                     "isComposite": false,
                     "isPartOfComposite": false

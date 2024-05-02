@@ -14,8 +14,9 @@ public class Texts : MonoBehaviour
     private bool didDialogueStart;
 
     private int lineIndex;
+    public bool finish = false;
 
-    public bool isGunActive = false;
+
 
     [SerializeField] private GameObject panelDialogue;
 
@@ -99,7 +100,7 @@ public class Texts : MonoBehaviour
             panelDialogue.SetActive(false);
             playerMovement.ResumeMovement();
             Time.timeScale = 1;
-            isGunActive = true;
+            finish = true;
         }
 
     }

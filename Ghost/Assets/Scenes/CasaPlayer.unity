@@ -6620,8 +6620,7 @@ MonoBehaviour:
   secondDialogue: {fileID: 846701240}
   doorActive: 0
   dialogueLines:
-  - "Hola hermano, se ve que descansaste bien. Escapar de la gente no es f\xE1cil
-    jajaja."
+  - "Hola hermano, se ve que descansaste bien. Escapar de la gente no es f\xE1cil."
   - Todos estos viajes que estamos haciendo es por nuestro bien, espero que lo entiendas.
   - "Desde que pap\xE1 se fue, todo es tan diferente..."
   - 'Pero, esta ciudad parece apropiada para nosotros porque no nos conoce nadie. '

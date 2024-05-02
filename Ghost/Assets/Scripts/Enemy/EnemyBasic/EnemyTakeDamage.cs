@@ -38,6 +38,7 @@ public class EnemyTakeDamage : MonoBehaviour
         if (health > 0)
         {
             spriteRenderer.color = Color.red;
+            
         }
         else
         {

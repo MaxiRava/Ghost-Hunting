@@ -8,12 +8,13 @@ public class PlayerGun : MonoBehaviour
     private KeyCode Key;
     public LineRenderer line;
     public Transform gun;
+    [SerializeField] private GameObject gunImage;
     private float laserRange = 1.5f;
     [SerializeField] private LayerMask layerObstacule;
 
     [SerializeField] private float gunDamage = 0.1f;
 
-    public bool damageActive = false;
+    public bool damageActive;
 
     private Looking Looking;
 
@@ -31,6 +32,7 @@ public class PlayerGun : MonoBehaviour
         Looking = GetComponent<Looking>();
         attackPlayerAnimator = GetComponent<Animator>();
         isAttacking = false;
+        damageActive = false;
 
         //Enemy = GameObject.FindWithTag("Enemy").transform;
     }
@@ -47,6 +49,7 @@ public class PlayerGun : MonoBehaviour
             EneableGun();
             UpdateGun();
             isAttacking = true;
+            gunImage.SetActive(true);
 
         }
 
@@ -54,6 +57,7 @@ public class PlayerGun : MonoBehaviour
         {
             DisableGun();
             isAttacking = false;
+            gunImage.SetActive(false);
             damageActive = false;
 
         }
@@ -109,9 +113,12 @@ public class PlayerGun : MonoBehaviour
 
     private void UpdateGun()
     {
-        line.SetPosition(0, gun.position);
+        //Vector3 rayOffset = ;
+        Vector3 rayOrigin = gun.position + gun.right * 0.1f;
 
-        line.SetPosition(1, gun.position - gun.up * laserRange);
+        line.SetPosition(0, rayOrigin);
+
+        line.SetPosition(1, rayOrigin + gun.up * laserRange);
 
         //Debug.Log(isEnemyNear);
 
@@ -136,6 +143,7 @@ public class PlayerGun : MonoBehaviour
         {
             
             Transform nearestEnemy = FindNearestEnemy();
+            
             float distance = Vector3.Distance(gun.position, nearestEnemy.transform.position);
             RaycastHit2D hit = Physics2D.Raycast(gun.position, nearestEnemy.transform.position, distance, layerObstacule);
 

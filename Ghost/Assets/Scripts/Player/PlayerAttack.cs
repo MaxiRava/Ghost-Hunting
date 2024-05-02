@@ -29,7 +29,7 @@ public class PlayerAttack : MonoBehaviour
 
                 MeleeController.position = transform.position + new Vector3(-0.05f, 0.75f, 0f);
 
-                MeleeController.rotation = transform.rotation * Quaternion.Euler(new Vector3(0f, 0f, 180f));
+                MeleeController.rotation = transform.rotation * Quaternion.Euler(new Vector3(0f, 0f, 0f));
 
                 break;
 
@@ -37,7 +37,7 @@ public class PlayerAttack : MonoBehaviour
 
                 MeleeController.position = transform.position + new Vector3(-0.05f, -0.75f, 0f);
 
-                MeleeController.rotation = transform.rotation * Quaternion.Euler(new Vector3(0f, 0f, 0f));
+                MeleeController.rotation = transform.rotation * Quaternion.Euler(new Vector3(0f, 0f, 180f));
 
                 break;
 
@@ -45,7 +45,7 @@ public class PlayerAttack : MonoBehaviour
 
                 MeleeController.position = transform.position + new Vector3(-0.6f, -0.2f, 0f);
 
-                MeleeController.rotation = transform.rotation * Quaternion.Euler(new Vector3(0f, 0f, -90f));
+                MeleeController.rotation = transform.rotation * Quaternion.Euler(new Vector3(0f, 0f, 90f));
 
                 break;
 
@@ -53,7 +53,7 @@ public class PlayerAttack : MonoBehaviour
 
                 MeleeController.position = transform.position + new Vector3(0.6f, -0.2f, 0f);
 
-                MeleeController.rotation = transform.rotation * Quaternion.Euler(new Vector3(0f, 0f, 90f));
+                MeleeController.rotation = transform.rotation * Quaternion.Euler(new Vector3(0f, 0f, -90f));
 
                 break;
 

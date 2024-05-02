@@ -18,9 +18,8 @@ public class Tutorial : MonoBehaviour
     
     void Update()
     {
-        if (textTutorial.isGunActive)
+        if (textTutorial.finish)
         {
-            gun.SetActive(true);
             Destroy(gameObject);
         }
     }

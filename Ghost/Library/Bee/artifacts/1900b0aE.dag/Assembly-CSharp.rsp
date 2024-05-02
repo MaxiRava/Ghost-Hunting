@@ -403,6 +403,7 @@
 "Assets/Scripts/HUD/EnemyLifeBar.cs"
 "Assets/Scripts/HUD/PlayerLifeHUD.cs"
 "Assets/Scripts/Items/enterDoor.cs"
+"Assets/Scripts/mensageFinalDoor.cs"
 "Assets/Scripts/NPC/Dialogue.cs"
 "Assets/Scripts/Player/Looking.cs"
 "Assets/Scripts/Player/PlayerAttack.cs"
