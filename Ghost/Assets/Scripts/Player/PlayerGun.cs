@@ -9,10 +9,10 @@ public class PlayerGun : MonoBehaviour
     public LineRenderer line;
     public Transform gun;
     [SerializeField] private GameObject gunImage;
-    private float laserRange = 1.5f;
+    [SerializeField] private float laserRange;
     [SerializeField] private LayerMask layerObstacule;
 
-    [SerializeField] private float gunDamage = 0.1f;
+    [SerializeField] private float gunDamage;
 
     public bool damageActive;
 
@@ -23,9 +23,9 @@ public class PlayerGun : MonoBehaviour
     private float keyAnimator;
 
     //private Transform Enemy;
-    private bool isEnemyNear = false;
+    private bool isEnemyNear;
 
-    private int enemiesInsideTrigger = 0;
+    private int enemiesInsideTrigger;
 
     void Start()
     {
@@ -33,6 +33,8 @@ public class PlayerGun : MonoBehaviour
         attackPlayerAnimator = GetComponent<Animator>();
         isAttacking = false;
         damageActive = false;
+        isEnemyNear = false;
+        enemiesInsideTrigger = 0;
 
         //Enemy = GameObject.FindWithTag("Enemy").transform;
     }

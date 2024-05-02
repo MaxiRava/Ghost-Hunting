@@ -77,7 +77,9 @@
               "Assets/Scenes/BattleNivel1.unity",
               "Assets/Scenes/BattleNivel2.unity",
               "Assets/Scenes/CasaPlayer.unity",
-              "Assets/Scenes/Tutorial.unity"
+              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/Tutorial.unity",
+              "Assets/Scenes/Victory.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -88,7 +90,9 @@
               "Assets/Scenes/BattleNivel1.unity",
               "Assets/Scenes/BattleNivel2.unity",
               "Assets/Scenes/CasaPlayer.unity",
-              "Assets/Scenes/Tutorial.unity"
+              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/Tutorial.unity",
+              "Assets/Scenes/Victory.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -560,7 +564,9 @@
               "Assets/Scenes/BattleNivel1.unity",
               "Assets/Scenes/BattleNivel2.unity",
               "Assets/Scenes/CasaPlayer.unity",
-              "Assets/Scenes/Tutorial.unity"
+              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/Tutorial.unity",
+              "Assets/Scenes/Victory.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1253,8 +1259,7 @@
               "Assets/Scenes/BattleNivel2.unity",
               "Assets/Scenes/CasaPlayer.unity",
               "Assets/Scenes/Menu.unity",
-              "Assets/Scenes/Tutorial.unity",
-              "Assets/Scenes/Victory.unity"
+              "Assets/Scenes/Tutorial.unity"
             ],
             "dependencyType": 0,
             "icon": null

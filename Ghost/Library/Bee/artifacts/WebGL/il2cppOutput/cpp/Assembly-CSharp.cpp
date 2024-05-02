@@ -7662,6 +7662,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerGun_Start_m728BEE3AC7EDE6C931EF8BF
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___attackPlayerAnimator), (void*)L_1);
 		__this->___isAttacking = (bool)0;
 		__this->___damageActive = (bool)0;
+		__this->___isEnemyNear = (bool)0;
+		__this->___enemiesInsideTrigger = 0;
 		return;
 	}
 }
@@ -8102,8 +8104,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerGun_DisableGun_m00B4BBD1E373BAE23F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerGun__ctor_m06D4C4A501788433538976F1D1199F709DA18231 (PlayerGun_tFE3448692A00242E5F944C326EA62086CB909A63* __this, const RuntimeMethod* method) 
 {
 	{
-		__this->___laserRange = (1.5f);
-		__this->___gunDamage = (0.100000001f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}

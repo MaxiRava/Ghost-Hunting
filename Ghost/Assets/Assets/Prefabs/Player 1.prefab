@@ -535,9 +535,10 @@ MonoBehaviour:
   line: {fileID: 7498435768554608227}
   gun: {fileID: 937646836888948314}
   gunImage: {fileID: 7934839436978966098}
+  laserRange: 1.5
   layerObstacule:
     serializedVersion: 2
     m_Bits: 64
-  gunDamage: 0.1
+  gunDamage: 0.2
   damageActive: 0
   isAttacking: 0
