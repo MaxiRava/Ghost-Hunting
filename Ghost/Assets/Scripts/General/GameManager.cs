@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Hud hud;
     [SerializeField] private GameObject defeatPanel;
 
+    [SerializeField] private AudioClip hitSound;
+
     private int lifes = 3;
 
     private void Awake()
@@ -38,6 +40,7 @@ public class GameManager : MonoBehaviour
     {
 
         lifes -= damage;
+        Sound.Instance.ExecuteSound(hitSound);
 
 
         if (lifes == 0)

@@ -10,6 +10,8 @@ public class EnemyTakeDamage : MonoBehaviour
     [SerializeField] private float maxHealth;
     [SerializeField] private float health;
     private SpriteRenderer spriteRenderer;
+
+    [SerializeField] private AudioClip deathSound;
     void Start()
     {
         health = maxHealth;
@@ -19,7 +21,7 @@ public class EnemyTakeDamage : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         Debug.Log(playerGun.damageActive);
 
@@ -43,6 +45,7 @@ public class EnemyTakeDamage : MonoBehaviour
         else
         {
             GameObject.FindGameObjectWithTag("Door").GetComponent<Door>().EnemiesEliminates();
+            Sound.Instance.ExecuteSound(deathSound);
             Destroy(gameObject);
         }
     }

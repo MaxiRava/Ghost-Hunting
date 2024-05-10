@@ -19,7 +19,7 @@ public class Dialogue : MonoBehaviour
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
 
     private KeyCode Key = KeyCode.E;
-    private float typingTime = 0.05f;
+    private float typingTime = 0.02f;
     private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
@@ -78,7 +78,7 @@ public class Dialogue : MonoBehaviour
         dialoguePanel.SetActive(true);
         dialogueMark.SetActive(false);
         lineIndex = 0;
-        //Time.timeScale = 0f;
+        Time.timeScale = 0f;
         playerMovement.StopMovement();
  
 
@@ -102,7 +102,7 @@ public class Dialogue : MonoBehaviour
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
             dialogueMark.SetActive(true);
-            //Time.timeScale = 1f;
+            Time.timeScale = 1f;
 
             playerMovement.ResumeMovement();
         }

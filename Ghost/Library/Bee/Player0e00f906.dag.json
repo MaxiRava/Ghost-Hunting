@@ -495,7 +495,13 @@
         487,
         488,
         489,
-        490
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -505,7 +511,7 @@
       "DisplayName": "Writing boot.config_7kyv.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 40615,
+      "PayloadLength": 40855,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -523,6 +529,10 @@
         "Library/PlayerDataCache/WebGL/Data/data.unity3d",
         "Library/PlayerDataCache/WebGL/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/WebGL/Data/ScriptingAssemblies.json",
+        "Library/PlayerDataCache/WebGL/Data/sharedassets0.resource",
+        "Library/PlayerDataCache/WebGL/Data/sharedassets1.resource",
+        "Library/PlayerDataCache/WebGL/Data/sharedassets2.resource",
+        "Library/PlayerDataCache/WebGL/Data/sharedassets5.resource",
         "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AIModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AccessibilityModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -872,7 +882,7 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/9995375810615041995.rsp",
       "DisplayName": "Writing 9995375810615041995.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 40787,
+      "PayloadOffset": 41027,
       "PayloadLength": 48616,
       "PayloadDebugContentSnippet": "--allowed-assembly=\"C:/Program",
       "Inputs": [],
@@ -1546,7 +1556,7 @@
       "Annotation": "GenerateNativePluginsForAssemblies Library/Bee/artifacts/WebGL/AsyncPluginsFromLinker",
       "DisplayName": "Running Burst Compiler",
       "ActionType": "RunRPCCommand",
-      "PayloadOffset": 89510,
+      "PayloadOffset": 89750,
       "PayloadLength": 3569,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Da",
       "Action": "GenerateNativePluginsForAssemblies",
@@ -2041,7 +2051,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_izf3.info",
       "DisplayName": "Writing UnityClassRegistration.cpp_izf3.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93183,
+      "PayloadOffset": 93423,
       "PayloadLength": 1326,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Cl",
       "Inputs": [],
@@ -2152,7 +2162,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WebGL/bdwgc/release_WebGL_wasm/_dummy_for_header_discovery",
       "DisplayName": "Writing _dummy_for_header_discovery",
       "ActionType": "WriteFile",
-      "PayloadOffset": 94621,
+      "PayloadOffset": 94861,
       "PayloadLength": 28,
       "PayloadDebugContentSnippet": "//dummy for header discovery",
       "Inputs": [],
@@ -2257,7 +2267,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WebGL/zlib/release_WebGL_wasm/_dummy_for_header_discovery",
       "DisplayName": "Writing _dummy_for_header_discovery",
       "ActionType": "WriteFile",
-      "PayloadOffset": 94760,
+      "PayloadOffset": 95000,
       "PayloadLength": 28,
       "PayloadDebugContentSnippet": "//dummy for header discovery",
       "Inputs": [],
@@ -2903,7 +2913,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ffxx3fo06j7s0.lump.cpp",
       "DisplayName": "Writing ffxx3fo06j7s0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 94895,
+      "PayloadOffset": 95135,
       "PayloadLength": 720,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2924,7 +2934,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/vsaue2wpr6lp0.lump.cpp",
       "DisplayName": "Writing vsaue2wpr6lp0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 95722,
+      "PayloadOffset": 95962,
       "PayloadLength": 431,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2942,7 +2952,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/47so0i2h9xrr0.lump.cpp",
       "DisplayName": "Writing 47so0i2h9xrr0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 96260,
+      "PayloadOffset": 96500,
       "PayloadLength": 711,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2963,7 +2973,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/e5czzz9junxg0.lump.cpp",
       "DisplayName": "Writing e5czzz9junxg0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 97078,
+      "PayloadOffset": 97318,
       "PayloadLength": 713,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -2983,7 +2993,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/kevy72dbjiwj0.lump.cpp",
       "DisplayName": "Writing kevy72dbjiwj0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 97898,
+      "PayloadOffset": 98138,
       "PayloadLength": 479,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3001,7 +3011,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/9hvfssd66y0h0.lump.cpp",
       "DisplayName": "Writing 9hvfssd66y0h0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 98484,
+      "PayloadOffset": 98724,
       "PayloadLength": 770,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3021,7 +3031,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/y2nq0sgsui1f0.lump.cpp",
       "DisplayName": "Writing y2nq0sgsui1f0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 99361,
+      "PayloadOffset": 99601,
       "PayloadLength": 579,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3040,7 +3050,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/rd9ph9t8kx140.lump.cpp",
       "DisplayName": "Writing rd9ph9t8kx140.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 100047,
+      "PayloadOffset": 100287,
       "PayloadLength": 766,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3060,7 +3070,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/rd9ph9t8kx141.lump.cpp",
       "DisplayName": "Writing rd9ph9t8kx141.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 100920,
+      "PayloadOffset": 101160,
       "PayloadLength": 1183,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3083,7 +3093,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/rd9ph9t8kx142.lump.cpp",
       "DisplayName": "Writing rd9ph9t8kx142.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 102210,
+      "PayloadOffset": 102450,
       "PayloadLength": 777,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3103,7 +3113,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/pjo8gqidbngl0.lump.cpp",
       "DisplayName": "Writing pjo8gqidbngl0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 103094,
+      "PayloadOffset": 103334,
       "PayloadLength": 520,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3121,7 +3131,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/be0hqzgybk1a0.lump.cpp",
       "DisplayName": "Writing be0hqzgybk1a0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 103721,
+      "PayloadOffset": 103961,
       "PayloadLength": 382,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3138,7 +3148,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/cikn4rxc17t80.lump.cpp",
       "DisplayName": "Writing cikn4rxc17t80.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 104210,
+      "PayloadOffset": 104450,
       "PayloadLength": 530,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3156,7 +3166,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/tthrl1g8a8ju0.lump.cpp",
       "DisplayName": "Writing tthrl1g8a8ju0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 104847,
+      "PayloadOffset": 105087,
       "PayloadLength": 337,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3173,7 +3183,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/kdfoazekxp9x0.lump.cpp",
       "DisplayName": "Writing kdfoazekxp9x0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 105291,
+      "PayloadOffset": 105531,
       "PayloadLength": 1165,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3196,7 +3206,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/q54qr0pypcxw0.lump.cpp",
       "DisplayName": "Writing q54qr0pypcxw0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 106563,
+      "PayloadOffset": 106803,
       "PayloadLength": 448,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3214,7 +3224,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/q54qr0pypcxw1.lump.cpp",
       "DisplayName": "Writing q54qr0pypcxw1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 107118,
+      "PayloadOffset": 107358,
       "PayloadLength": 958,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3236,7 +3246,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/q54qr0pypcxw2.lump.cpp",
       "DisplayName": "Writing q54qr0pypcxw2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 108183,
+      "PayloadOffset": 108423,
       "PayloadLength": 696,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3256,7 +3266,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/q54qr0pypcxw3.lump.cpp",
       "DisplayName": "Writing q54qr0pypcxw3.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 108986,
+      "PayloadOffset": 109226,
       "PayloadLength": 1309,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3281,7 +3291,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ut4sluw88ymt0.lump.cpp",
       "DisplayName": "Writing ut4sluw88ymt0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 110402,
+      "PayloadOffset": 110642,
       "PayloadLength": 621,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3300,7 +3310,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/xnc2mikwrkhs0.lump.cpp",
       "DisplayName": "Writing xnc2mikwrkhs0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 111130,
+      "PayloadOffset": 111370,
       "PayloadLength": 389,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3317,7 +3327,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/d2cqkuh27csc0.lump.cpp",
       "DisplayName": "Writing d2cqkuh27csc0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 111626,
+      "PayloadOffset": 111866,
       "PayloadLength": 341,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3334,7 +3344,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/r74yjgadm3af0.lump.cpp",
       "DisplayName": "Writing r74yjgadm3af0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 112074,
+      "PayloadOffset": 112314,
       "PayloadLength": 1030,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3357,7 +3367,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/r74yjgadm3af1.lump.cpp",
       "DisplayName": "Writing r74yjgadm3af1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 113211,
+      "PayloadOffset": 113451,
       "PayloadLength": 668,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3377,7 +3387,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/r74yjgadm3af2.lump.cpp",
       "DisplayName": "Writing r74yjgadm3af2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 113986,
+      "PayloadOffset": 114226,
       "PayloadLength": 681,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3397,7 +3407,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/eomrbeyxhxm10.lump.cpp",
       "DisplayName": "Writing eomrbeyxhxm10.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 114774,
+      "PayloadOffset": 115014,
       "PayloadLength": 705,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3417,7 +3427,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/cw1kj17dctu10.lump.cpp",
       "DisplayName": "Writing cw1kj17dctu10.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 115586,
+      "PayloadOffset": 115826,
       "PayloadLength": 524,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3436,7 +3446,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/luzgmkqao6qq0.lump.cpp",
       "DisplayName": "Writing luzgmkqao6qq0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 116217,
+      "PayloadOffset": 116457,
       "PayloadLength": 607,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3456,7 +3466,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/luzgmkqao6qq1.lump.cpp",
       "DisplayName": "Writing luzgmkqao6qq1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 116931,
+      "PayloadOffset": 117171,
       "PayloadLength": 827,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3478,7 +3488,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/devb6c7cjxp00.lump.cpp",
       "DisplayName": "Writing devb6c7cjxp00.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 117865,
+      "PayloadOffset": 118105,
       "PayloadLength": 1035,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3501,7 +3511,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/kmlov82ur08l0.lump.cpp",
       "DisplayName": "Writing kmlov82ur08l0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 119007,
+      "PayloadOffset": 119247,
       "PayloadLength": 914,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3524,7 +3534,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/kmlov82ur08l1.lump.cpp",
       "DisplayName": "Writing kmlov82ur08l1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 120028,
+      "PayloadOffset": 120268,
       "PayloadLength": 798,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3546,7 +3556,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/orcj5h6xu49o0.lump.cpp",
       "DisplayName": "Writing orcj5h6xu49o0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 120933,
+      "PayloadOffset": 121173,
       "PayloadLength": 417,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3564,7 +3574,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/orcj5h6xu49o1.lump.cpp",
       "DisplayName": "Writing orcj5h6xu49o1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 121457,
+      "PayloadOffset": 121697,
       "PayloadLength": 1088,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3588,7 +3598,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/orcj5h6xu49o2.lump.cpp",
       "DisplayName": "Writing orcj5h6xu49o2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 122652,
+      "PayloadOffset": 122892,
       "PayloadLength": 861,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3610,7 +3620,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/t5ku2a9ygbzy0.lump.cpp",
       "DisplayName": "Writing t5ku2a9ygbzy0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 123620,
+      "PayloadOffset": 123860,
       "PayloadLength": 502,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3629,7 +3639,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/oef3gdyn9cbq0.lump.cpp",
       "DisplayName": "Writing oef3gdyn9cbq0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 124229,
+      "PayloadOffset": 124469,
       "PayloadLength": 727,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3650,7 +3660,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/oef3gdyn9cbq1.lump.cpp",
       "DisplayName": "Writing oef3gdyn9cbq1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 125063,
+      "PayloadOffset": 125303,
       "PayloadLength": 750,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3671,7 +3681,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/oef3gdyn9cbq2.lump.cpp",
       "DisplayName": "Writing oef3gdyn9cbq2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 125920,
+      "PayloadOffset": 126160,
       "PayloadLength": 737,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3692,7 +3702,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/oef3gdyn9cbq3.lump.cpp",
       "DisplayName": "Writing oef3gdyn9cbq3.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 126764,
+      "PayloadOffset": 127004,
       "PayloadLength": 1277,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3718,7 +3728,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ga2a68sqqw6r0.lump.cpp",
       "DisplayName": "Writing ga2a68sqqw6r0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 128148,
+      "PayloadOffset": 128388,
       "PayloadLength": 628,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3738,7 +3748,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ga2a68sqqw6r1.lump.cpp",
       "DisplayName": "Writing ga2a68sqqw6r1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 128883,
+      "PayloadOffset": 129123,
       "PayloadLength": 605,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3758,7 +3768,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ga2a68sqqw6r2.lump.cpp",
       "DisplayName": "Writing ga2a68sqqw6r2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 129595,
+      "PayloadOffset": 129835,
       "PayloadLength": 1520,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3786,7 +3796,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ga2a68sqqw6r3.lump.cpp",
       "DisplayName": "Writing ga2a68sqqw6r3.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 131222,
+      "PayloadOffset": 131462,
       "PayloadLength": 738,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3807,7 +3817,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/ga2a68sqqw6r4.lump.cpp",
       "DisplayName": "Writing ga2a68sqqw6r4.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 132067,
+      "PayloadOffset": 132307,
       "PayloadLength": 859,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3829,7 +3839,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/za063uwijcxo0.lump.cpp",
       "DisplayName": "Writing za063uwijcxo0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 133033,
+      "PayloadOffset": 133273,
       "PayloadLength": 630,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3849,7 +3859,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/za063uwijcxo1.lump.cpp",
       "DisplayName": "Writing za063uwijcxo1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 133770,
+      "PayloadOffset": 134010,
       "PayloadLength": 645,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3869,7 +3879,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/twbvmlmguydn0.lump.cpp",
       "DisplayName": "Writing twbvmlmguydn0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 134522,
+      "PayloadOffset": 134762,
       "PayloadLength": 491,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3888,7 +3898,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/twbvmlmguydn1.lump.cpp",
       "DisplayName": "Writing twbvmlmguydn1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 135120,
+      "PayloadOffset": 135360,
       "PayloadLength": 825,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3910,7 +3920,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/twbvmlmguydn2.lump.cpp",
       "DisplayName": "Writing twbvmlmguydn2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 136052,
+      "PayloadOffset": 136292,
       "PayloadLength": 744,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3931,7 +3941,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/bed4c33o12ds0.lump.cpp",
       "DisplayName": "Writing bed4c33o12ds0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 136903,
+      "PayloadOffset": 137143,
       "PayloadLength": 857,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3953,7 +3963,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/iprbbr5ym09m0.lump.cpp",
       "DisplayName": "Writing iprbbr5ym09m0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 137867,
+      "PayloadOffset": 138107,
       "PayloadLength": 327,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3970,7 +3980,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/fghisr6mkgzi0.lump.cpp",
       "DisplayName": "Writing fghisr6mkgzi0.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 138301,
+      "PayloadOffset": 138541,
       "PayloadLength": 807,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -3992,7 +4002,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/fghisr6mkgzi1.lump.cpp",
       "DisplayName": "Writing fghisr6mkgzi1.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 139215,
+      "PayloadOffset": 139455,
       "PayloadLength": 908,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -4015,7 +4025,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/fghisr6mkgzi2.lump.cpp",
       "DisplayName": "Writing fghisr6mkgzi2.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 140230,
+      "PayloadOffset": 140470,
       "PayloadLength": 1000,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -4039,7 +4049,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/fghisr6mkgzi3.lump.cpp",
       "DisplayName": "Writing fghisr6mkgzi3.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 141337,
+      "PayloadOffset": 141577,
       "PayloadLength": 1333,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -4066,7 +4076,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/fghisr6mkgzi4.lump.cpp",
       "DisplayName": "Writing fghisr6mkgzi4.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 142777,
+      "PayloadOffset": 143017,
       "PayloadLength": 903,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -4089,7 +4099,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/fghisr6mkgzi5.lump.cpp",
       "DisplayName": "Writing fghisr6mkgzi5.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 143787,
+      "PayloadOffset": 144027,
       "PayloadLength": 710,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -4110,7 +4120,7 @@
       "Annotation": "MakeLump Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/fghisr6mkgzi6.lump.cpp",
       "DisplayName": "Writing fghisr6mkgzi6.lump.cpp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 144604,
+      "PayloadOffset": 144844,
       "PayloadLength": 378,
       "PayloadDebugContentSnippet": "//Generated lump file. generat",
       "Inputs": [],
@@ -4128,7 +4138,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/_dummy_for_header_discovery",
       "DisplayName": "Writing _dummy_for_header_discovery",
       "ActionType": "WriteFile",
-      "PayloadOffset": 145095,
+      "PayloadOffset": 145335,
       "PayloadLength": 28,
       "PayloadDebugContentSnippet": "//dummy for header discovery",
       "Inputs": [],
@@ -9292,7 +9302,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/_dummy_for_header_discovery",
       "DisplayName": "Writing _dummy_for_header_discovery",
       "ActionType": "WriteFile",
-      "PayloadOffset": 145242,
+      "PayloadOffset": 145482,
       "PayloadLength": 28,
       "PayloadDebugContentSnippet": "//dummy for header discovery",
       "Inputs": [],
@@ -21433,7 +21443,7 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6070537824006410562.rsp",
       "DisplayName": "Writing 6070537824006410562.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 145359,
+      "PayloadOffset": 145599,
       "PayloadLength": 29200,
       "PayloadDebugContentSnippet": "qcL \"Library/Bee/artifacts/Web",
       "Inputs": [],
@@ -22321,7 +22331,7 @@
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8995565923215908413.rsp",
       "DisplayName": "Writing 8995565923215908413.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 174648,
+      "PayloadOffset": 174888,
       "PayloadLength": 14142,
       "PayloadDebugContentSnippet": "-s \"EXPORTED_RUNTIME_METHODS=[",
       "Inputs": [],
@@ -22474,7 +22484,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info",
       "DisplayName": "Writing build.framework.js_mumr.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 188886,
+      "PayloadOffset": 189126,
       "PayloadLength": 626,
       "PayloadDebugContentSnippet": "{\"WebGLPlayerBuildProgram.Fram",
       "Inputs": [],
@@ -22508,34 +22518,116 @@
       "DebugActionIndex": 468
     },
     {
-      "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.framework.js",
-      "DisplayName": "Copying Game.framework.js",
-      "ActionType": "CopyFiles",
+      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
+      "DisplayName": "7z build.framework.js",
+      "Action": "cd \"C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Ghost/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Ghost/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/7z.exe"
       ],
       "Outputs": [
-        "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.framework.js"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
       ],
       "ToBuildDependencies": [
         468
       ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
       "DebugActionIndex": 469
     },
     {
-      "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.wasm",
-      "DisplayName": "Copying Game.wasm",
-      "ActionType": "CopyFiles",
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Game.framework.js.gz_23jd.info",
+      "DisplayName": "Writing Game.framework.js.gz_23jd.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 189850,
+      "PayloadLength": 503,
+      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/Game.framework.js.gz_23jd.info"
+      ],
+      "DebugActionIndex": 470
+    },
+    {
+      "Annotation": "GzipMarker C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.framework.js.gz",
+      "DisplayName": "GzipMarker Game.framework.js",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Game.framework.js.gz_23jd.info\"",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
+        "Library/Bee/artifacts/csharpactions/Game.framework.js.gz_23jd.info",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
       ],
       "Outputs": [
-        "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.wasm"
+        "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.framework.js.gz"
+      ],
+      "ToBuildDependencies": [
+        469,
+        470
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 471
+    },
+    {
+      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
+      "DisplayName": "7z build.wasm",
+      "Action": "cd \"C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Ghost/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Ghost/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/7z.exe"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
       ],
       "ToBuildDependencies": [
         466
       ],
-      "DebugActionIndex": 470
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 472
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Game.wasm.gz_7bw5.info",
+      "DisplayName": "Writing Game.wasm.gz_7bw5.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 190443,
+      "PayloadLength": 487,
+      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/Game.wasm.gz_7bw5.info"
+      ],
+      "DebugActionIndex": 473
+    },
+    {
+      "Annotation": "GzipMarker C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.wasm.gz",
+      "DisplayName": "GzipMarker Game.wasm",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Game.wasm.gz_7bw5.info\"",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
+        "Library/Bee/artifacts/csharpactions/Game.wasm.gz_7bw5.info",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+      ],
+      "Outputs": [
+        "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.wasm.gz"
+      ],
+      "ToBuildDependencies": [
+        472,
+        473
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 474
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -22550,7 +22642,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 471
+      "DebugActionIndex": 475
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -22565,20 +22657,20 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 472
+      "DebugActionIndex": 476
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 189600,
-      "PayloadLength": 1894,
+      "PayloadOffset": 191018,
+      "PayloadLength": 2474,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 473
+      "DebugActionIndex": 477
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -22588,6 +22680,10 @@
         "Library/PlayerDataCache/WebGL/Data/data.unity3d",
         "Library/PlayerDataCache/WebGL/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/WebGL/Data/ScriptingAssemblies.json",
+        "Library/PlayerDataCache/WebGL/Data/sharedassets0.resource",
+        "Library/PlayerDataCache/WebGL/Data/sharedassets1.resource",
+        "Library/PlayerDataCache/WebGL/Data/sharedassets2.resource",
+        "Library/PlayerDataCache/WebGL/Data/sharedassets5.resource",
         "Library/Bee/artifacts/WebGL/boot.config",
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Ghost/Library/Bee/artifacts/WebGL/il2cppOutput/data/Metadata/global-metadata.dat",
         "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/data/unity_default_resources",
@@ -22604,32 +22700,73 @@
       "ToBuildDependencies": [
         2,
         6,
-        473
+        477
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 474
+      "DebugActionIndex": 478
     },
     {
-      "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.data",
-      "DisplayName": "Copying Game.data",
-      "ActionType": "CopyFiles",
+      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
+      "DisplayName": "7z webgl.data",
+      "Action": "cd \"C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Ghost/Library/Bee/artifacts/WebGL\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Ghost/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data"
+        "Library/Bee/artifacts/WebGL/webgl.data",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/7z.exe"
       ],
       "Outputs": [
-        "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.data"
+        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
       ],
       "ToBuildDependencies": [
-        474
+        478
       ],
-      "DebugActionIndex": 475
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 479
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Game.data.gz_5yya.info",
+      "DisplayName": "Writing Game.data.gz_5yya.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 193582,
+      "PayloadLength": 464,
+      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/Game.data.gz_5yya.info"
+      ],
+      "DebugActionIndex": 480
+    },
+    {
+      "Annotation": "GzipMarker C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.data.gz",
+      "DisplayName": "GzipMarker Game.data",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Game.data.gz_5yya.info\"",
+      "Inputs": [
+        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
+        "Library/Bee/artifacts/csharpactions/Game.data.gz_5yya.info",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+      ],
+      "Outputs": [
+        "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.data.gz"
+      ],
+      "ToBuildDependencies": [
+        479,
+        480
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 481
     },
     {
       "Annotation": "PreprocessJS C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/Build/Game.loader.js",
       "DisplayName": "PreprocessJS Game.loader",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/Maximo/Documents/GitHub/Ghost\\x2dHunting/Game/Build/Game.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Ghost'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Game.data'\" \"FRAMEWORK_FILENAME='Game.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Game.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.14f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Game.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/Maximo/Documents/GitHub/Ghost\\x2dHunting/Game/Build/Game.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Ghost'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Game.data.gz'\" \"FRAMEWORK_FILENAME='Game.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Game.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.14f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Game.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -22638,12 +22775,12 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 476
+      "DebugActionIndex": 482
     },
     {
       "Annotation": "PreprocessJS C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/Maximo/Documents/GitHub/Ghost\\x2dHunting/Game/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Ghost'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Game.data'\" \"FRAMEWORK_FILENAME='Game.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Game.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.14f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Game.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/Maximo/Documents/GitHub/Ghost\\x2dHunting/Game/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Ghost'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Game.data.gz'\" \"FRAMEWORK_FILENAME='Game.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Game.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.14f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Game.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -22652,7 +22789,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 477
+      "DebugActionIndex": 483
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/favicon.ico",
@@ -22664,7 +22801,7 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 478
+      "DebugActionIndex": 484
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/fullscreen-button.png",
@@ -22676,7 +22813,7 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 479
+      "DebugActionIndex": 485
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/MemoryProfiler.png",
@@ -22688,7 +22825,7 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 480
+      "DebugActionIndex": 486
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/progress-bar-empty-dark.png",
@@ -22700,7 +22837,7 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 481
+      "DebugActionIndex": 487
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/progress-bar-empty-light.png",
@@ -22712,7 +22849,7 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 482
+      "DebugActionIndex": 488
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/progress-bar-full-dark.png",
@@ -22724,7 +22861,7 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 483
+      "DebugActionIndex": 489
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/progress-bar-full-light.png",
@@ -22736,12 +22873,12 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 484
+      "DebugActionIndex": 490
     },
     {
       "Annotation": "PreprocessJS C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/Maximo/Documents/GitHub/Ghost\\x2dHunting/Game/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Ghost'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Game.data'\" \"FRAMEWORK_FILENAME='Game.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Game.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.14f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Game.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/Maximo/Documents/GitHub/Ghost\\x2dHunting/Game/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Ghost'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Game.data.gz'\" \"FRAMEWORK_FILENAME='Game.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Game.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.14f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Game.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -22750,7 +22887,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 485
+      "DebugActionIndex": 491
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/unity-logo-dark.png",
@@ -22762,7 +22899,7 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 486
+      "DebugActionIndex": 492
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/unity-logo-light.png",
@@ -22774,7 +22911,7 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 487
+      "DebugActionIndex": 493
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/webgl-logo.png",
@@ -22786,7 +22923,7 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 488
+      "DebugActionIndex": 494
     },
     {
       "Annotation": "CopyFiles C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/webmemd-icon.png",
@@ -22798,7 +22935,7 @@
       "Outputs": [
         "C:/Users/Maximo/Documents/GitHub/Ghost-Hunting/Game/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 489
+      "DebugActionIndex": 495
     },
     {
       "Annotation": "Player",
@@ -22808,16 +22945,10 @@
       "ToBuildDependencies": [
         4,
         462,
-        469,
-        470,
         471,
-        472,
+        474,
         475,
         476,
-        477,
-        478,
-        479,
-        480,
         481,
         482,
         483,
@@ -22826,10 +22957,16 @@
         486,
         487,
         488,
-        489
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 490
+      "DebugActionIndex": 496
     }
   ],
   "FileSignatures": [
@@ -23199,7 +23336,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 490
+          "Player": 496
         }
 ,  "DefaultNodes": [
     0

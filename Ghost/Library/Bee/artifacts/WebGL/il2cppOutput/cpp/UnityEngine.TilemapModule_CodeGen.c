@@ -190,7 +190,7 @@ static const int32_t s_InvokerIndices[78] =
 {
 	6385,
 	5122,
-	9513,
+	9515,
 	7021,
 	7021,
 	6266,
@@ -217,8 +217,8 @@ static const int32_t s_InvokerIndices[78] =
 	987,
 	6385,
 	6162,
-	9482,
-	9482,
+	9484,
+	9484,
 	5025,
 	2453,
 	5025,
@@ -264,8 +264,8 @@ static const int32_t s_InvokerIndices[78] =
 	5025,
 	4993,
 	4993,
-	9546,
-	9558,
+	9548,
+	9560,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TilemapModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_TilemapModule_CodeGenModule = 

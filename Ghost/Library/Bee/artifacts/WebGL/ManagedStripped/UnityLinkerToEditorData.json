@@ -153,7 +153,14 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/BattleNivel1.unity",
+              "Assets/Scenes/BattleNivel2.unity",
+              "Assets/Scenes/CasaPlayer.unity",
+              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/Tutorial.unity",
+              "Assets/Scenes/Victory.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -177,8 +184,28 @@
             "icon": null
           },
           {
+            "name": "AudioSource",
+            "scenes": [
+              "Assets/Scenes/BattleNivel1.unity",
+              "Assets/Scenes/BattleNivel2.unity",
+              "Assets/Scenes/CasaPlayer.unity",
+              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/Tutorial.unity",
+              "Assets/Scenes/Victory.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "SampleClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/BattleNivel1.unity",
+              "Assets/Scenes/BattleNivel2.unity",
+              "Assets/Scenes/CasaPlayer.unity",
+              "Assets/Scenes/Menu.unity",
+              "Assets/Scenes/Tutorial.unity",
+              "Assets/Scenes/Victory.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           },

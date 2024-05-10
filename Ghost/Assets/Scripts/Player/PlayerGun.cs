@@ -22,10 +22,11 @@ public class PlayerGun : MonoBehaviour
     public bool isAttacking;
     private float keyAnimator;
 
-    //private Transform Enemy;
     private bool isEnemyNear;
 
     private int enemiesInsideTrigger;
+
+    [SerializeField] private AudioSource vacuumCleannerSound;
 
     void Start()
     {
@@ -36,7 +37,7 @@ public class PlayerGun : MonoBehaviour
         isEnemyNear = false;
         enemiesInsideTrigger = 0;
 
-        //Enemy = GameObject.FindWithTag("Enemy").transform;
+        //gunDamage = 0.8f;
     }
 
     private void Update()
@@ -46,8 +47,14 @@ public class PlayerGun : MonoBehaviour
 
         attackPlayerAnimator.SetFloat("keyDirection", keyAnimator);
 
+        if (Input.GetKeyDown(Key))
+        {
+            vacuumCleannerSound.Play();
+        }
+
         if (Input.GetKey(Key))
         {
+
             EneableGun();
             UpdateGun();
             isAttacking = true;
@@ -62,9 +69,17 @@ public class PlayerGun : MonoBehaviour
             gunImage.SetActive(false);
             damageActive = false;
 
+            vacuumCleannerSound.Stop();
+
         }
 
         attackPlayerAnimator.SetBool("isAttacking", isAttacking);
+
+    }
+
+    private void FixedUpdate(){
+
+        
 
     }
 
@@ -111,35 +126,16 @@ public class PlayerGun : MonoBehaviour
     {
 
         line.enabled = true;
+        
     }
 
     private void UpdateGun()
     {
-        //Vector3 rayOffset = ;
         Vector3 rayOrigin = gun.position + gun.right * 0.1f;
 
         line.SetPosition(0, rayOrigin);
 
         line.SetPosition(1, rayOrigin + gun.up * laserRange);
-
-        //Debug.Log(isEnemyNear);
-
-        //RaycastHit2D hit = Physics2D.Raycast(gun.position - gun.up, -gun.up, laserRange, layerObstacule);
-
-        // if (hit.collider != null)
-        // {
-        //     line.SetPosition(1, hit.point);
-
-        //     damageActive = true;
-        //     hit.collider.GetComponent<EnemyTakeDamage>().EnemyGetDamage(gunDamage);
-
-        //     //Debug.Log("daño activado");
-        // }
-        // else
-        // {
-        //     damageActive = false;
-        //     //Debug.Log("daño desactivado");
-        // }
 
         if (isEnemyNear)
         {
@@ -160,15 +156,6 @@ public class PlayerGun : MonoBehaviour
             {
                 damageActive = false;
             }
-
-
-
-            // //line.SetPosition(1, Enemy.position);
-
-            // damageActive = true;
-            // hit.collider.GetComponent<EnemyTakeDamage>().EnemyGetDamage(gunDamage);
-
-            // //Debug.Log("daño activado");
         }
    
 
